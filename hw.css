@@ -1,0 +1,86 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures the container fills the full page height */
+}
+
+.grid-container {
+    display: grid;
+    /* Creates 2 columns and 2 rows, each taking up an equal fraction of the available space */
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100vh; /* Viewport height ensures the container uses the full screen height */
+    width: 100vw;  /* Viewport width ensures the container uses the full screen width */
+}
+
+.section one {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;     /* Centers content vertically */
+    border: 1px solid black; /* Optional: adds a visible border */
+    box-sizing: border-box;  /* Ensures borders/padding are included in the element's total width/height */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Optional: Add colors to differentiate sections */
+.one:hover { background-color: red; 
+.sec1{
+    color:white;
+    font-size: 60px;
+    
+}}
+.two:hover { background-color: rgb(60, 18, 18);
+.sec2{
+    color:white;
+    font-size: 60px;
+    
+} }
+.three:hover { background-color: blue;
+.sec3{
+    color:white;
+    font-size: 60px;
+    
+} }
+.four:hover { background-color: black; 
+.sec4{
+    color:white;
+    font-size: 60px;
+    
+}}
+
+.sec1{
+    align-items: center;
+    font-size: 60px;
+}
+.sec2{
+    align-items: center;
+    font-size: 60px;
+}
+.sec3{
+    align-items: center;
+    font-size: 60px;
+}
+.sec4{
+    align-items: center;
+    font-size: 60px;
+}
+.section {
+    transition: 
+        box-shadow 0.3s ease,
+        border 0.3s ease,
+        transform 0.2s ease;
+}
+.section:hover {
+    border: 4px solid white;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+    transform: scale(1.003);
+}
+.section:active {
+    box-shadow: 0 0 35px rgba(239, 187, 187, 0.9);
+    transform: scale(0.90);
+}
+.section:hover {
+    cursor: pointer;
+}
+
