@@ -1,29 +1,28 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%; /* Ensures the container fills the full page height */
+    height: 100%; 
 }
 
 .grid-container {
     display: grid;
-    /* Creates 2 columns and 2 rows, each taking up an equal fraction of the available space */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    height: 100vh; /* Viewport height ensures the container uses the full screen height */
-    width: 100vw;  /* Viewport width ensures the container uses the full screen width */
+    height: 100vh; 
+    width: 100vw;  
 }
 
 .section one {
     display: flex;
-    justify-content: center; /* Centers content horizontally */
-    align-items: center;     /* Centers content vertically */
-    border: 1px solid black; /* Optional: adds a visible border */
-    box-sizing: border-box;  /* Ensures borders/padding are included in the element's total width/height */
+    justify-content: center; 
+    align-items: center;     
+    border: 1px solid black; 
+    box-sizing: border-box;  
     padding: 10px;
     text-align: center;
 }
 
-/* Optional: Add colors to differentiate sections */
+
 .one:hover { background-color: red; 
 .sec1{
     color:white;
@@ -83,4 +82,5 @@ body, html {
 .section:hover {
     cursor: pointer;
 }
+
 
