@@ -17,7 +17,7 @@ body, html {
     justify-content: center; 
     align-items: center;     
     border: 1px solid black; 
-    box-sizing: border-box;  
+    box-sizing: border-box; 
     padding: 10px;
     text-align: center;
 }
@@ -82,5 +82,4 @@ body, html {
 .section:hover {
     cursor: pointer;
 }
-
 
